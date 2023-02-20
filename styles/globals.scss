@@ -26,3 +26,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* Hide scrollbar */
+// For Chrome, Safari and Opera
+body::-webkit-scrollbar {
+  display: none;
+}
+// For Firefox
+html {
+  scrollbar-width: none;
+}
