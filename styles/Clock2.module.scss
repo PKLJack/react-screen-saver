@@ -1,0 +1,15 @@
+@use "colors" as c;
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 4rem;
+  z-index: 0;
+}
+
+.block {
+  outline: none;
+}
